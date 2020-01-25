@@ -70,11 +70,17 @@ ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages nvm autojump composer)
+# ---- Handled by Antibody ----
+plugins=()
+
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# Source Antibody's plugin build
+source $DOTFILES/antibody/plugins.sh
+
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
