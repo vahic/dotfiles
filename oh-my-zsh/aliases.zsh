@@ -1,4 +1,5 @@
-alias gl="glola"
 alias pvpn="sudo protonvpn"
 alias antibody-build="antibody bundle < $DOTFILES/antibody/plugins.txt > $DOTFILES/antibody/plugins.sh"
-
+alias gl="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all"
+alias gls="git log --oneline --decorate --graph --all"
+alias gs="git status"
