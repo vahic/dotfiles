@@ -86,8 +86,11 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Source Antibody's plugin build
-source $DOTFILES/antibody/plugins.sh
-
+ANTIBODY_BUILD="$DOTFILES/antibody/plugins.sh"
+# Build Antibody's plugin file if it does not exist
+[[ ! -f $ANTIBODY_BUILD ]] && antibody-build
+source $ANTIBODY_BUILD
+unset ANTIBODY_BUILD
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
