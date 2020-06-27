@@ -3,4 +3,4 @@ robbyrussell/oh-my-zsh path:plugins/autojump
 robbyrussell/oh-my-zsh path:plugins/nvm
 robbyrussell/oh-my-zsh path:plugins/composer
 robbyrussell/oh-my-zsh path:plugins/sudo
-
+romkatv/powerlevel10k
