@@ -8,7 +8,7 @@
 
 ### Dotfiles config
 ```sh
-git clone git@github.com:Vahlay/dotfiles.git ~/.dotfiles
+git clone git@github.com:vahic/dotfiles.git ~/.dotfiles
 rm ~/.zshrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 zsh #or restart terminal
