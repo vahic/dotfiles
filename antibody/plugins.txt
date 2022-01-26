@@ -1,5 +1,5 @@
 robbyrussell/oh-my-zsh path:plugins/colored-man-pages
-robbyrussell/oh-my-zsh path:plugins/autojump
+robbyrussell/oh-my-zsh path:plugins/zoxide
 robbyrussell/oh-my-zsh path:plugins/nvm
 robbyrussell/oh-my-zsh path:plugins/composer
 robbyrussell/oh-my-zsh path:plugins/sudo

@@ -2,8 +2,9 @@
 
 ### Prerequisites
 
-- Install [antibody](https://getantibody.github.io/install/).
-- Install [autojump-rs](https://github.com/xen0n/autojump-rs) (or the original [autojump](https://github.com/wting/autojump))
+- Install ZSH & [Oh My ZSH](https://ohmyz.sh/#install)
+- Install [antibody](https://getantibody.github.io/install/)
+- Install [zoxide](https://github.com/ajeetdsouza/zoxide) 
 - Install `xclip`
 
 ### Dotfiles config
