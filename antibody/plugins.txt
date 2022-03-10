@@ -1,8 +1,8 @@
-robbyrussell/oh-my-zsh path:plugins/colored-man-pages
-robbyrussell/oh-my-zsh path:plugins/zoxide
-robbyrussell/oh-my-zsh path:plugins/nvm
-robbyrussell/oh-my-zsh path:plugins/composer
-robbyrussell/oh-my-zsh path:plugins/sudo
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/zoxide
+ohmyzsh/ohmyzsh path:plugins/nvm
+ohmyzsh/ohmyzsh path:plugins/composer
+ohmyzsh/ohmyzsh path:plugins/sudo
 romkatv/powerlevel10k
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
