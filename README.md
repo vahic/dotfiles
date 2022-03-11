@@ -10,10 +10,16 @@
 ### Dotfiles config
 ```sh
 git clone git@github.com:vahic/dotfiles.git ~/.dotfiles
-rm ~/.zshrc
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-zsh #or restart terminal
 ```
+
+Then put this is ~/.zshrc :
+
+```zsh
+export DOTFILES="$HOME/.dotfiles"
+source $dotfiles/.zshrc
+```
+
+Then restart the zsh
 
 ### SSH Agent config
 
@@ -27,5 +33,5 @@ This will start ssh-agent globally for the graphical session so it's not only av
 
 ### TODO
 
-- Try loading only required oh-my-zsh files instead of the whole framework
+- Try to find a way to periodically run "phpenv rehash" instead of running it on each startup
 - Add a script to automatically run "antibody update" periodically
