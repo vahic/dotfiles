@@ -7,7 +7,6 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export DOTFILES="$HOME/.dotfiles"
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM="$DOTFILES/oh-my-zsh"

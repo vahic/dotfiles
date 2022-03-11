@@ -1,14 +1,15 @@
 # Installation
 
-### Prerequisites
+### Requirements
 
 - Install ZSH & [Oh My ZSH](https://ohmyz.sh/#install)
 - Install [antibody](https://getantibody.github.io/install/)
 - Install [zoxide](https://github.com/ajeetdsouza/zoxide) 
-- Install `xclip`
+
+- Install `xclip` if you want to use OhMyZSH clipcopy & clippaste functions
 
 ### Dotfiles config
-```sh
+```zsh
 git clone git@github.com:vahic/dotfiles.git ~/.dotfiles
 ```
 
@@ -16,7 +17,7 @@ Then put this is ~/.zshrc :
 
 ```zsh
 export DOTFILES="$HOME/.dotfiles"
-source $dotfiles/.zshrc
+source $DOTFILES/.zshrc
 ```
 
 Then restart the zsh
