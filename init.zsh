@@ -5,22 +5,18 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to your oh-my-zsh installation.
+# Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
+export ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
-# Source Antibody's plugin build
-ANTIBODY_BUILD="$DOTFILES/antibody/plugins.sh"
-# Build Antibody's plugin file if it does not exist
-[[ ! -f $ANTIBODY_BUILD ]] && antibody-build
-source $ANTIBODY_BUILD
-unset ANTIBODY_BUILD
+# Load Antidote & plugins
+source "$DOTFILES/antidote/load.zsh"
 
 export EDITOR="vim"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f $DOTFILES/.p10k.zsh ]] || source $DOTFILES/.p10k.zsh
+# To customize prompt, run `p10k configure` or edit p10k.zsh.
+[[ ! -f $DOTFILES/p10k.zsh ]] || source "$DOTFILES/p10k.zsh"
