@@ -14,7 +14,8 @@ export ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
 source "$ZSH/oh-my-zsh.sh"
 
 # Load Antidote & plugins
-source "$DOTFILES/antidote/load.zsh"
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+antidote load ${DOTFILES}/antidote/plugins.txt
 
 export EDITOR="vim"
 
