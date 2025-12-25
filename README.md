@@ -34,4 +34,3 @@ This will start ssh-agent globally for the graphical session so it's not only av
 ### TODO
 
 - Audit Oh My ZSH to see if it is still usefull and consider replacements ([Zephyr](https://github.com/mattmc3/zephyr) ?)
-- Try to find a way to periodically run "phpenv rehash" instead of running it on each startup
