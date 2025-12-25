@@ -6,5 +6,5 @@
 # Additionally, each config option is also explained in detail
 # on Ghostty's website, at https://ghostty.org/docs/config.
 
-font-family = Cascadia Code
+font-family = Cascadia Code PL
 theme = Dimmed Monokai

@@ -2,9 +2,26 @@
 
 ### Requirements
 
+- Install [Cascadia Code font](https://github.com/microsoft/cascadia-code/releases)
 - Install ZSH & [Oh My ZSH](https://ohmyz.sh/#install)
 - Install [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Install [Ghostty](https://ghostty.org/docs/install/binary)
+
+### Font install
+> These instruction are for Fedora, based on https://docs.fedoraproject.org/en-US/quick-docs/fonts/#unpackaged
+
+```zsh
+unzip CascadiaCode-2407.24.zip -d CascadiaCode && \
+sudo mkdir -p /usr/local/share/fonts/cascadia-code && \
+sudo mv CascadiaCode/ttf/*.ttf /usr/local/share/fonts/cascadia-code && \
+sudo chown -R root: /usr/local/share/fonts/cascadia-code && \
+sudo chmod 644 /usr/local/share/fonts/cascadia-code/* && \
+sudo restorecon -vFr /usr/local/share/fonts/cascadia-code && \
+sudo fc-cache -v
+
+# Optional directory cleanup
+rm -rf CascadiaCode*
+```
 
 ### Dotfiles config
 Clone the repo
