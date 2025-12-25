@@ -8,7 +8,7 @@
 - Install [Ghostty](https://ghostty.org/docs/install/binary)
 
 ### Font install
-> These instruction are for Fedora, based on https://docs.fedoraproject.org/en-US/quick-docs/fonts/#unpackaged
+> These instructions are for Fedora, based on https://docs.fedoraproject.org/en-US/quick-docs/fonts/#unpackaged
 
 ```zsh
 unzip CascadiaCode-2407.24.zip -d CascadiaCode && \
@@ -60,3 +60,4 @@ This will start ssh-agent globally for the graphical session so it's not only av
 
 - Audit Oh My ZSH to see if it is still usefull and consider replacements ([Zephyr](https://github.com/mattmc3/zephyr) ?) or [nothing](https://www.youtube.com/watch?v=bTLYiNvRIVI)
 - Try [Starsip prompt](https://github.com/starship/starship) to replace Powerlevel10k
+- If the requirements become more complex (mutliple distros, etc), take a look at [chezmoi](https://www.chezmoi.io/)
