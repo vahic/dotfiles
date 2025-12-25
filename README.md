@@ -4,6 +4,7 @@
 
 - Install ZSH & [Oh My ZSH](https://ohmyz.sh/#install)
 - Install [zoxide](https://github.com/ajeetdsouza/zoxide)
+- Install [Ghostty](https://ghostty.org/docs/install/binary)
 
 ### Dotfiles config
 Clone the repo
@@ -12,14 +13,21 @@ Clone the repo
 git clone git@github.com:vahic/dotfiles.git ~/.dotfiles
 ```
 
-Then load the config in ~/.zshrc :
+Load the config in ~/.zshrc :
 
 ```zsh
 export DOTFILES="$HOME/.dotfiles"
 source "$DOTFILES/init.zsh"
 ```
 
-Then restart the terminal
+Link the Ghostty config with
+
+```zsh
+ln -s ~/.dotfiles/ghostty ~/.config/ghostty
+```
+
+Then restart the Ghostty
+
 
 ### SSH Agent config
 
