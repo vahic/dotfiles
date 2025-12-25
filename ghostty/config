@@ -8,3 +8,6 @@
 
 font-family = Cascadia Code PL
 theme = Dimmed Monokai
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-color = cell-foreground
