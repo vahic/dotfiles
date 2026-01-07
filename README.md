@@ -30,11 +30,18 @@ Clone the repo
 git clone git@github.com:vahic/dotfiles.git ~/.dotfiles
 ```
 
-Load the config in ~/.zshrc :
+Init the local ~/.zshrc :
 
 ```zsh
-export DOTFILES="$HOME/.dotfiles"
-source "$DOTFILES/init.zsh"
+cp ~/.dotfiles/.zshrc.dist ~/.zshrc
+```
+
+And fill the `GIT_COMMITTER_EMAIL` & `GIT_AUTHOR_EMAIL` env variables
+
+Link the Git config with 
+
+```zsh
+ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ```
 
 Link the Ghostty config with

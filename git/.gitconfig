@@ -1,0 +1,10 @@
+[user]
+	name = Vahic Laydier
+[push]
+	autoSetupRemote = true
+[alias]
+	bl = branch -l
+	cb = checkout -b
+	co = commit -m
+	cof = commit --no-verify -m
+	sw = !git-sw
