@@ -7,3 +7,4 @@
 	cb = checkout -b
 	co = commit -m
 	cof = commit --no-verify -m
+	fsw = !git fetch && git switch
